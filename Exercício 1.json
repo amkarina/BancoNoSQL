@@ -1,0 +1,36 @@
+db.alunos.insert({"nome":"Marcelo"
+	,"Data Nascimento":ISODate('2016-11-10T19:13:00Z')
+	,"disciplinas":[{"nome":"Banco de Dados No SQL"}, {nome: "Arquitetura e Qualidade de dados"}]
+	,"notas":[5,4]
+	,"curso":"Ciência dos dados e Big Data"}	
+);
+db.alunos.insert({"nome": "Sérgio"
+	, "Data Nascimento": ISODate('1974-10-25T19:13:00Z')
+	,"disciplinas":[{"nome":"Banco de Dados No SQL"},{nome: "Arquitetura e Qualidade de dados"},{"nome":"Introdução a linguagens estatĩsticas"}]
+	,"notas":[5,4,4]
+	,"curso":"Ciência dos dados e Big Data"
+});
+db.alunos.insert({ "nome":"Marcus"
+	,"Data Nascimento":ISODate('1976-02-24T19:13:00Z')
+	,"disciplinas":[{"nome":"Banco de Dados No SQL"},{nome:"Arquitetura e Qualidade de dados"},{"nome":"Introdução a linguagens estatĩsticas"}]
+	,"notas":[5,4,5]
+	,"curso":"Ciência dos dados e Big Data"
+});
+db.alunos.insert({ "nome":"Amanda"
+	,"Data Nascimento":ISODate('1994-01-22T19:13:00Z')
+	,"disciplinas":[{"nome":"Banco de Dados No SQL"},{nome:"Arquitetura e Qualidade de dados"},{"nome":"Introdução a linguagens estatĩsticas"}]
+	,"notas":[4,4,5]
+	,"curso":"Ciência dos dados e Big Data"
+});
+db.alunos.find().sort({"Data Nascimento":1}).limit(1);
+db.alunos.update(
+	{"nome":"Amanda"},
+	{
+		$set:
+		{
+			"nome":"Amanda",
+			"notas":[5,4,5]
+		}
+	}
+	);
+db.alunos.deleteMany({"nome":"Marcus"});
