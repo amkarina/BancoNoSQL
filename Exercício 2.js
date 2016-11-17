@@ -1,3 +1,4 @@
+use nosqlclass;
 var map = function() {
 	                       emit(this.text, 1);
 	                   };
