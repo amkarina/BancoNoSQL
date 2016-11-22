@@ -18,6 +18,7 @@ db.Vocabulary.mapReduce( map,
 	);
 db.contagem_texto.find();
 
+
 var map = function() {  
     var summary = this.text;
     if (summary) { 
@@ -44,6 +45,7 @@ db.Vocabulary.mapReduce( map,
                       ,out:"contagem_letras"}
   );
 db.contagem_letras.find();
+
 
 
 db.Vocabulary.aggregate( [
