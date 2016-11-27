@@ -1,0 +1,14 @@
+{
+  "name": "install",
+  "version": "1.0.0",
+  "description": "Trabalho prático destinado a disciplina de NoSQL da Especialização em Ciência de Dados e Big Data.",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.11"
+  }
+}
