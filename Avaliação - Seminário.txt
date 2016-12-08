@@ -1,0 +1,45 @@
+﻿Grupo 02
+* Jucélio Natalino dos Santos Marques - https://github.com/juceliodba/dbabigdata - Não
+* Thiago Silva https://github.com/thiagoSsilva - Não        
+* Fernando Francis - https://github.com/fernandofrancis - Não
+* José Ferreira Reis Fonseca - https://github.com/jfrfonseca - Sim
+* Viviane Aparecida Silva Gabriel https://github.com/vivokas/vsilva - Não
+Tema: Ebay utilizando NEO4J
+Nota: 9
+
+
+Grupo 03 
+* Willian Hofner - https://github.com/hofnerw - Não mas gostaria muito de aprender
+* João Henrique p. Heringer - https://github.com/jhpheringer - Não
+* Hernani Prates Costa Dias - https://github.com/hernanidias - Não
+* Breno Ubaldo Silveira Mendonça - https://github.com/brenousm - Não
+Tema: Leroy Merlin
+Nota: 9
+
+
+Grupo 04 
+* Eduardo Cardoso de Melo - https://github.com/EduardoCMelo - Não
+* Leonardo Quintão - https://github.com/leomqu - Não
+* Cristiano Bento - https://github.com/crisbento - Não
+* Fabricio Dutra - https://github.com/fabdutra - Não
+* Briner Nunes - https://github.com/briner88 - Não
+Tema: CASE Telefônica
+Nota: 9
+
+
+Grupo 05 
+* Marcelo Stefanelli Santos - https://github.com/tiuson - Não
+* Alan Carlos R. Silva - https://github.com/alancarlosilva - Não
+* Robert Carlos - https://github.com/robbierobert - Não
+* Gilmar Meira Freitas https://github.com/gilmarmf - Não
+Tema: NoSQL na Netflix
+Nota: 9
+
+
+Grupo 06 
+* Pedro Rocha Goecking Silva - https://github.com/pedrogoecking - Não
+* Francisco Mário de Moura  - https://github.com/franciscomoura - Não
+* Eduardo Augusto Nascimento Lima  - https://github.com/franciscomoura - Não
+* Marcelo dos Santos Castanheira  - https://github.com/Castanha69 - Não
+Tema: Um estudo sobre a utilização do banco de dados NoSQL Cassandra em dados biológicos / biodiversidade 
+Nota: 9

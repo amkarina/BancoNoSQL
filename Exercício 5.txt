@@ -1,0 +1,9 @@
+﻿Questão 1:
+Para a grande quantidade de dados que IoT gera, seria interessante utilizar um banco de dados não relacional, visto que não temos noção de como é a estrutura dos dados. Para que possamos dar conta da quantidade de dados produzidas, um sistema de filas seria interessante para que todos os sensores possam enviar os dados para o banco e assim, todas as informações salvas. Os consumidores da aplicação também não seriam prejudicados com a concorrência.
+
+
+Questão 2:
+Hoje há um banco relacional Oracle que é consumido por aplicações e diversos serviços externos, sites satélites, sistema legado, apps. Há uma quantidade consideravelmente grande de informações sendo criadas e alteradas. Em época de sazonalidade o banco acaba não aguentando e apontando consultas não tão otimizadas. Grande parte do negócio se encontra em procedures, functions dentro do banco.
+
+
+Seria interessante que apenas os dados informacionais fossem, que são utilizados para relatórios estivessem nesse banco relacional e já consolidados e os dados gerados constantemente, fossem alocados em uma estrutura que aguentasse o fluxo de dados, principalmente em sazonalidades. Isso poderia ser feito com um sistema de filas, onde os produtores de informações podem gerar toda a informação e os consumidores conseguissem acessar essa informação. Em pontos de menores acessos, as informações já tratadas e consolidadas seriam enviadas para o banco relacional para que os relatórios fossem gerados conforme a necessidade.
