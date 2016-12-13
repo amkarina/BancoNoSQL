@@ -33,16 +33,17 @@ track+= "black mirror,friends,vikings,gray,flash,arrow,gotham,the100,american ho
 track+="htgawm,how to get away with murder,marvel,criminal minds, mr robot,vampire diaries,orange is the new black,";
 track+="oitnb,homeland,the big bang theory,tbbt,luke cage,demolidor,dare devil,jessica jones,narcos,the originals,sense8,";
 track+="bones,the fall,prision brake,gossip girls,csi,scandal,the good wife,dexter,house of cards, hoc,teen wolf";
-track+="game of thrones,supernatural,pretty little liars,pll,westworld,blindspot,onde upom a time,legends of tomorrow,shield";
+track+="game of thrones,supernatural,pretty little liars,pll,westworld,blindspot,once upom a time,legends of tomorrow,shield";
 
 var stream = client.stream('statuses/filter', {track:track ,location:'Brazil',language:'pt'});
 stream.on('data', function(event) {
   MongoClient.connect('mongodb://127.0.0.1:27017/trabalho_pratico', function(err, db) {
     if(err) throw err;
-
-     db.collection('tweets').save(event, function(err, records) {
+     
+     db.collection('tweets').save(event,{w: 1}, function(err, records) {
         if (err) console.log("erro ao salvar tweet - " + event.text);
-        console.log("record added");
+        console.log("record added "+ records);
+        //  db.collection.update({_id : records[0]._id}, {"created_at": new Date(data[5]+"-"+data[2]+"-"+data[2] + " " + data[3]) });
         db.close();
       });
   });
