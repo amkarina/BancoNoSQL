@@ -1,0 +1,1 @@
+Trabalho prático destinado a disciplina de NoSQL da Especialização em Ciência de Dados e Big Data.
