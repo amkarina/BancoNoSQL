@@ -21,6 +21,8 @@ pylab.xticks(x, palavras)
 pylab.xlabel('Data/Hora')
 pylab.ylabel('Quantidade')
 pylab.grid(True)
+locs, labels = pylab.xticks()
+pylab.setp(labels, rotation=45)
 pylab.bar(x,valores,0.5,color=cor, yerr=5, align='center')
 
 pylab.show()
